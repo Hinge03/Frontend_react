@@ -39,7 +39,7 @@ function SubmitPage() {
     formData.append('myfile', file);
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/predict', {
+      const response = await fetch('https://identification-of-medicinal-plant-1.onrender.com', {
         method: 'POST',
         body: formData,
       });
