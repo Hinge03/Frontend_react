@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+    .result-page p {
+      word-break: break-word; 
+      padding: 0 10px; 
+      font-size: 0.95rem; 
+      line-height: 1.4;
+    }
+  
+    .container, .result-page {
+      width: 95%; 
+      margin: 10px auto;
+      padding: 15px; 
+    }
+  
+    .image-preview img {
+      max-width: 280px; 
+    }
+  
+    @media (max-width: 400px) {
+      input[type="submit"], 
+      .result-page button {
+        width: 100%;
+        max-width: none; 
+      }
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .container, .result-page {
+      max-width: 80%; 
+    }
+  }

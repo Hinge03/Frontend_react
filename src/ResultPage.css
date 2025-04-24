@@ -1,0 +1,71 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #0c0101;
+}
+
+.result-page {
+    background: white;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(13, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.result-box {
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.result-page button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: linear-gradient(to right, rgb(5, 243, 5) 0%, rgb(12, 74, 12) 100%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+/* .image-preview{ 
+    margin: 1rem 0;
+} */
+
+.result-page button:hover {
+    background: linear-gradient(to right, rgb(12, 74, 12) 0%, rgb(5, 243, 5) 100%);
+}
