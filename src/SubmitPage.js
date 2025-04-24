@@ -39,7 +39,7 @@ function SubmitPage() {
     formData.append('myfile', file);
 
     try {
-      const response = await fetch('https://identification-of-medicinal-plant-1.onrender.com', {
+      const response = await fetch('https://flask-backend-sxek.onrender.com', {
         method: 'POST',
         body: formData,
       });
